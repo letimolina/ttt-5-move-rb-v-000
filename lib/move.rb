@@ -9,14 +9,14 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(position)
-  'position - 1'.to_i
+  position - 1.to_i
 end
   
 def move(array, index, character = X)
   array[index] = character
 end
 
-move(board, 0, )
+# move(board, 0, )
 display_board(board)
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
