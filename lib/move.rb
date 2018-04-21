@@ -12,7 +12,7 @@ def input_to_index(position)
   position - 1.to_i
 end
   
-def move(array, index, character = X)
+def move(array, index, character = "X")
   array[index] = character
 end
 
