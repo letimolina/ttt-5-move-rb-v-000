@@ -1,3 +1,4 @@
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -15,6 +16,7 @@ def move(array, index, character = X)
   array[index] = character
 end
 
-update_array_at_with(board, 0, "X")
+move(board, 0, "X")
+display_board(board)
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
