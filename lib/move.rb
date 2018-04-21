@@ -11,4 +11,6 @@ def input_to_index(position)
   position - 1.to_i
 end
   
-def 
+def move(board, index, character = X)
+  
+  puts display_board(board)
