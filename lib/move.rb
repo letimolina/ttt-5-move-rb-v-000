@@ -16,7 +16,7 @@ def move(array, index, character = "X")
   array[index] = character
 end
 
-# move(board, 0, )
+move(board, 0)
 display_board(board)
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
