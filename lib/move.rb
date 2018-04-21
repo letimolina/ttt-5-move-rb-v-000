@@ -11,3 +11,4 @@ def input_to_index(position)
   position - 1.to_i
 end
   
+def 
